@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  margin: 100%;
+  padding: 100%;
+}
+
+header {
+  background: #5F30E2;
+  padding: 16px;
+  color: white;
+  position: relative;
+  border-radius: 0px 0px 10px 10px;
+  margin-bottom: 5px;
+}
+
+body {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navbook{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbook a{
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.colsec{
+  display: flex;
+  justify-content: center;
+}
+
+section{
+  margin: 10px;
+}
+
+.book{
+  transition: transform .2s;
+  margin-top: 20%;
+}
+
+.book:hover{
+  transform: rotate(360deg); 
+}
+
+.book2{
+  transition: transform .2s;
+  margin-top: 20%;
+}
+
+.book2:hover{
+  transform: scale(1.5); 
+}
+
+.book3{
+  transition: transform .2s;
+  margin-top: 20%;
+}
+
+.book3:hover{
+  transform: rotate(360deg); 
+}

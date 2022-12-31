@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rak Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="assets/check-solid.svg">
+</head>
+
+<body>
+<header>
+  <a style="text-decoration: none; color:azure;" href="index.html"><h1>Rak Buku</h1></a>
+</header>
+
+<div class="wrapper">
+  <div class="container bg-white shadow" id="add-todo">
+    <h2 class="container-header text-center" style="margin-top: 10%;">Tambahkan buku kedalam rak</h2>
+    <form class="form" action="#" id="form">
+      <div class="form-group form-title">
+        <label for="title">Masukkan judul buku</label>
+        <input type="text" id="title" name="title" required>
+      </div>
+      <div class="form-group form-title">
+        <label for="title">Masukkan penulis buku</label>
+        <input type="text" id="author" name="author" required>
+      </div>
+      <div class="form-group form-title">
+        <label for="date">Masukkan tanggal terbit buku</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <input type="submit" value="Submit" name="Submit" class="btn-submit">
+    </form>
+  </div>
+  <div class="form-group form-title">
+    <input style="margin-top: 50%;" type="search" id="search" name="search" placeholder="Cari judul buku" required>
+  </div>
+  <div class="coloumn-container">
+  <div class="container">
+    <h2 class="container-header">Belum dibaca</h2>
+    <div class="list-item" id="todos">
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="container-header">Sudah dibaca</h2>
+    <div class="list-item" id="completed-todos">
+    </div>
+  </div>
+  </div>
+</div>
+  
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
